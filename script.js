@@ -41,6 +41,6 @@ function checkprincipal()
 function slider()
 {
     var slider = parseFloat(document.getElementById("rate").value);
-    document.getElementById("rateview").innerHTML = (slider+" %");
+    document.getElementById("rateview").innerHTML = (slider+"%");
 }
 
