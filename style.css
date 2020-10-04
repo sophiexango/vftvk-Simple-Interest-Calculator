@@ -46,3 +46,26 @@ var
     background-color:yellow;
     font-style:normal;
 }
+@media screen and (max-width: 767px)
+{
+    .maindiv
+    {
+        width:90%;
+    }
+    h1
+    {
+    text-align:center;
+    }
+    .flex-container
+    {
+    margin-left: 20%;
+    margin-right:auto;
+    }
+    .flex-item-left,
+    .flex.item-right
+	{
+		flex: 1 50%;
+        padding-bottom:0.5em;
+	}
+      
+}
